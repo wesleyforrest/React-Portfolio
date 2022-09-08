@@ -42,8 +42,8 @@ const projectsArray = [
   },
 
   {
-    projectImage: "calculator",
-    projectName: "JavaScriptCalculator",
+    projectImage: "src/assets/Images/JS Morse Code.png",
+    projectName: "JavaScript Morse Code Translator",
     viewProjectLink: "Link",
     viewProjectCode: "code link",
     html: "HTML",
@@ -52,7 +52,7 @@ const projectsArray = [
     java: "Java",
     springboot: "Springboot",
     projectDescription:
-      "This project was created in the ..... week of the bootcamp.  We were tasked with creating.....",
+      "This project was created in the advanced JS section of the self paced course and aims to demonstrate more complex concepts of javaScript such as classes and objects whilst building on the concepts already learned",
   },
 
   {
