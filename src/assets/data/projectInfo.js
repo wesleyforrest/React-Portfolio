@@ -16,8 +16,8 @@ const projectsArray = [
   {
     projectImage: "src/assets/Images/JS Calculator.png",
     projectName: "Self paced JavaScript Calculator",
-    viewProjectLink: "TBC",
-    viewProjectCode: "TBC",
+    viewProjectLink: "https://wesleyforrest.github.io/JS-Calculator/",
+    viewProjectCode: "https://github.com/wesleyforrest/JS-Calculator",
     html: "HTML",
     javaScript: "javaScript",
     react: "React",
@@ -30,8 +30,8 @@ const projectsArray = [
   {
     projectImage: "src/assets/Images/JS Game - Space Invaders.png",
     projectName: "Space Invaders",
-    viewProjectLink: "Link",
-    viewProjectCode: "code link",
+    viewProjectLink: "https://wesleyforrest.github.io/JS-Space-Invaders/",
+    viewProjectCode: "https://github.com/wesleyforrest/JS-Space-Invaders",
     html: "HTML",
     javaScript: "javaScript",
     react: "React",
@@ -44,8 +44,10 @@ const projectsArray = [
   {
     projectImage: "src/assets/Images/JS Morse Code.png",
     projectName: "JavaScript Morse Code Translator",
-    viewProjectLink: "Link",
-    viewProjectCode: "code link",
+    viewProjectLink:
+      "https://wesleyforrest.github.io/JS-Morse-Code-Translator/",
+    viewProjectCode:
+      "https://github.com/wesleyforrest/JS-Morse-Code-Translator",
     html: "HTML",
     javaScript: "javaScript",
     react: "React",
@@ -56,17 +58,59 @@ const projectsArray = [
   },
 
   {
-    projectImage: "src/assets/Images/JS Morse Code.png",
-    projectName: "JavaScript Morse Code translator",
-    viewProjectLink: "Link",
-    viewProjectCode: "code link",
+    projectImage: "src/assets/Images/JS pig game.png",
+    projectName: "JavaScript Pig game",
+    viewProjectLink: "https://wesleyforrest.github.io/JS-Pig-Game/",
+    viewProjectCode: "https://github.com/wesleyforrest/JS-Pig-Game",
     html: "HTML",
     javaScript: "javaScript",
     react: "React",
     java: "Java",
     springboot: "Springboot",
     projectDescription:
-      "This project was created in the ..... week of the bootcamp.  We were tasked with creating.....",
+      "This project was created following a code along from an Udemy JS course.  The course covered the full javaScript curriculum in detail.  In order to enhance and build on my js skills I studied this course alongside the nology bootcamp.  Credit https://www.udemy.com/user/jonasschmedtmann/",
+  },
+
+  {
+    projectImage: "src/assets/Images/React Game - Quiz.png",
+    projectName: "React Sailing Game",
+    viewProjectLink: "https://wesleyforrest.github.io/niue-game-project/",
+    viewProjectCode: "https://github.com/wesleyforrest/niue-game-project",
+    html: "HTML",
+    javaScript: "javaScript",
+    react: "React",
+    java: "Java",
+    springboot: "Springboot",
+    projectDescription:
+      "This project was created using react and called upon the skills learned so far in html, javaScript and react to create a working game using all concepts learned on the course so far",
+  },
+
+  {
+    projectImage: "src/assets/Images/React - Beers api.png",
+    projectName: "React Beers project",
+    viewProjectLink: "TBC",
+    viewProjectCode: "https://github.com/wesleyforrest/react-api-lesson",
+    html: "HTML",
+    javaScript: "javaScript",
+    react: "React",
+    java: "Java",
+    springboot: "Springboot",
+    projectDescription:
+      "This project was created using react and called upon the skills learned so far in html, javaScript and react to create a working web app that uses an external api whilst using all concepts learned on the course so far",
+  },
+
+  {
+    projectImage: "src/assets/Images/React Ticket Tracker.png",
+    projectName: "React Ticket Tracker project",
+    viewProjectLink: "TBC",
+    viewProjectCode: "https://github.com/wesleyforrest/ticket-tracker",
+    html: "HTML",
+    javaScript: "javaScript",
+    react: "React",
+    java: "Java",
+    springboot: "Springboot",
+    projectDescription:
+      "This project was created using react and called upon the skills learned so far in html, javaScript and react to create a working web app using all concepts learned on the course so far",
   },
 ];
 
