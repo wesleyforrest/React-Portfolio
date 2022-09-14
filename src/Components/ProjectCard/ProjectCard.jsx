@@ -8,8 +8,8 @@ const ProjectCard = (props) => {
   return (
     <div className="project-card">
       <div className="project-card flip-card">
-        <div className="project-card flip-card__inner">
-          <div className="project-card flip-card__front">
+        <div className="project-card flip-card-inner">
+          <div className="project-card flip-card-front">
             <img src={project.projectImage} alt={project.projectName} />
             <div className="project-name-line">
               <h3>{project.projectName}</h3>
@@ -22,6 +22,10 @@ const ProjectCard = (props) => {
               <div className="coding-language">{project.react}</div>
               <div className="coding-language">{project.Java}</div>
             </div>
+          </div>
+          <div className="flip-card-back">
+            <h2>Description</h2>
+            <p className="card-back">{project.projectDescription}</p>
           </div>
         </div>
       </div>
