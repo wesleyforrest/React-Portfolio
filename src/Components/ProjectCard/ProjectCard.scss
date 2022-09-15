@@ -37,6 +37,7 @@
   height: 420px;
   width: 250px;
   margin: 20px;
+  background-color: aquamarine;
 
   &__image {
     display: flex;
@@ -48,7 +49,13 @@
 }
 
 .flip-card-back {
-  background-color: lem;
-  color: orange;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  padding: 20px;
+  height: 420px;
+  width: 250px;
+  margin: 20px;
+  background-color: aquamarine;
   transform: rotateY(180deg);
 }
