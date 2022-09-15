@@ -10,10 +10,8 @@ const Header = () => {
         </h3>
       </div>
       <div className="header-section__sub-heading">
-        <h1 className="header-section__job-title">
-          Junior Software<span className="underline-gold"> Developer</span>
-        </h1>
-        <div>________</div>
+        <h1 className="header-section__job-title">Junior Software Developer</h1>
+        <div className="header-section__underline-gold">________</div>
       </div>
     </div>
   );

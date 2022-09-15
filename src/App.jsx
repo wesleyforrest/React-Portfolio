@@ -1,13 +1,13 @@
 import "./App.scss";
 import Routing from "./Containers/Routing/Routing";
 import Header from "./Containers/Header/Header";
-import ProjectCardContainer from "./Containers/ProjectCardContainer/ProjectCardContainer";
+import Main from "./Containers/Main/Main";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <ProjectCardContainer />
+      <Main />
       <Routing />
     </div>
   );

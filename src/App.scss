@@ -1,1 +1,7 @@
 @use "./assets/sass/reset.scss" as *;
+@use "./assets/sass/mixins.scss" as *;
+@use "./assets/sass/variables.scss" as *;
+
+.App {
+  background-color: $primary-color-charcoal;
+}

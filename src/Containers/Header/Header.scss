@@ -1,1 +1,29 @@
+@use "../../assets/sass/mixins" as *;
+@use "../../assets/sass/mixins.scss" as *;
+@use "../../assets/sass/variables.scss" as *;
 
+.header-section {
+  font-family: $primary-font-family;
+  padding: 10px;
+  &__heading {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__first-name {
+    color: $primary-color-white;
+  }
+
+  &__surname {
+    color: $primary-color-gold;
+  }
+
+  &__job-title {
+    color: $primary-color-white;
+  }
+
+  &__underline-gold {
+    font-weight: 900;
+    color: $primary-color-gold;
+  }
+}
