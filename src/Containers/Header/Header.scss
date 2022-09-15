@@ -20,10 +20,18 @@
 
   &__job-title {
     color: $primary-color-white;
+    padding-top: 40px;
   }
 
   &__underline-gold {
     font-weight: 900;
     color: $primary-color-gold;
+  }
+
+  &__course-summary-text {
+    color: $primary-color-white;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding: 20px;
   }
 }
