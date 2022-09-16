@@ -12,15 +12,21 @@ const ProjectCard = (props) => {
           <div className="project-card flip-card-front">
             <img src={project.projectImage} alt={project.projectName} />
             <div className="project-name-line">
-              <h3>{project.projectName}</h3>
-              <button className="view-project">View Project</button>
-              <button className="view-code">View Code</button>
+              <h3 className="project-name-line__project-name">
+                {project.projectName}
+              </h3>
+              <button className="project-name-line__view-project">
+                View Project
+              </button>
+              <button className="project-name-line__view-code">
+                View Code
+              </button>
             </div>
             <div className="coding-language-container">
-              <div className="coding-language">{project.html}</div>
-              <div className="coding-language">{project.javaScript}</div>
-              <div className="coding-language">{project.react}</div>
-              <div className="coding-language">{project.Java}</div>
+              <img src={project.html} alt="html" />
+              <img src={project.javaScript} alt="javaScript" />
+              <img src={project.react} alt="React" />
+              <img src={project.java} alt="Java" />
             </div>
           </div>
           <div className="flip-card-back">
