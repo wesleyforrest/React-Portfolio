@@ -1,0 +1,44 @@
+@use "../../assets/sass/mixins" as *;
+@use "../../assets/sass/reset" as *;
+@use "../../assets/sass/variables" as *;
+
+.about {
+  padding: 50px;
+}
+
+.about-section {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+
+  &__header {
+    color: $primary-color-white;
+    padding-top: 50px;
+  }
+
+  &__headshot {
+    padding-top: 20px;
+    height: 300px;
+  }
+
+  &__about-text {
+    color: $primary-color-white;
+    padding-top: 20px;
+  }
+}
+
+.underline {
+  font-weight: 300;
+  display: inline-block;
+  padding-bottom: 5px;
+  position: relative;
+}
+.underline:before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 1px;
+  bottom: 0;
+  left: 0%;
+  border-bottom: 1px solid $primary-color-gold;
+}
