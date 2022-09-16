@@ -1,6 +1,6 @@
 const projectsArray = [
   {
-    projectImage: "src/assets/Images/Full time JS Calculator.png",
+    projectImage: "./Images/Full time JS Calculator.png",
     projectName: "JavaScript Calculator",
     viewProjectLink: "https://wesleyforrest.github.io/neiu-js-calculator/",
     viewProjectCode: "https://github.com/wesleyforrest/neiu-js-calculator",
@@ -14,7 +14,7 @@ const projectsArray = [
   },
 
   {
-    projectImage: "src/assets/Images/JS Calculator.png",
+    projectImage: "./Images/JS Calculator.png",
     projectName: "Self paced JavaScript Calculator",
     viewProjectLink: "https://wesleyforrest.github.io/JS-Calculator/",
     viewProjectCode: "https://github.com/wesleyforrest/JS-Calculator",
@@ -28,7 +28,7 @@ const projectsArray = [
   },
 
   {
-    projectImage: "src/assets/Images/JS Game - Space Invaders.png",
+    projectImage: "./Images/JS Game - Space Invaders.png",
     projectName: "Space Invaders",
     viewProjectLink: "https://wesleyforrest.github.io/JS-Space-Invaders/",
     viewProjectCode: "https://github.com/wesleyforrest/JS-Space-Invaders",
@@ -42,7 +42,7 @@ const projectsArray = [
   },
 
   {
-    projectImage: "src/assets/Images/JS Morse Code.png",
+    projectImage: "./Images/JS Morse Code.png",
     projectName: "JavaScript Morse Code Translator",
     viewProjectLink:
       "https://wesleyforrest.github.io/JS-Morse-Code-Translator/",
@@ -58,7 +58,7 @@ const projectsArray = [
   },
 
   {
-    projectImage: "src/assets/Images/JS pig game.png",
+    projectImage: "./Images/JS pig game.png",
     projectName: "JavaScript Pig game",
     viewProjectLink: "https://wesleyforrest.github.io/JS-Pig-Game/",
     viewProjectCode: "https://github.com/wesleyforrest/JS-Pig-Game",
@@ -72,7 +72,7 @@ const projectsArray = [
   },
 
   {
-    projectImage: "src/assets/Images/React Game - Quiz.png",
+    projectImage: "./Images/React Game - Quiz.png",
     projectName: "React Sailing Game",
     viewProjectLink: "https://wesleyforrest.github.io/niue-game-project/",
     viewProjectCode: "https://github.com/wesleyforrest/niue-game-project",
@@ -86,7 +86,7 @@ const projectsArray = [
   },
 
   {
-    projectImage: "src/assets/Images/React - Beers api.png",
+    projectImage: "./Images/React - Beers api.png",
     projectName: "React Beers project",
     viewProjectLink: "TBC",
     viewProjectCode: "https://github.com/wesleyforrest/react-api-lesson",
@@ -100,7 +100,7 @@ const projectsArray = [
   },
 
   {
-    projectImage: "src/assets/Images/React Ticket Tracker.png",
+    projectImage: "./Images/React Ticket Tracker.png",
     projectName: "React Ticket Tracker project",
     viewProjectLink: "TBC",
     viewProjectCode: "https://github.com/wesleyforrest/ticket-tracker",
