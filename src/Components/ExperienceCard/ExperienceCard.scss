@@ -1,0 +1,19 @@
+@use "../../assets/sass/mixins" as *;
+@use "../../assets/sass/reset" as *;
+@use "../../assets/sass/variables" as *;
+
+.experience-card {
+  height: 100px;
+  width: 80%;
+  background-color: $primary-color-charcoal;
+
+  &__table {
+    border: 1px solid $primary-color-gold;
+    margin-left: 20px;
+  }
+
+  &__job-info {
+    color: $primary-color-white;
+    padding: 5px;
+  }
+}

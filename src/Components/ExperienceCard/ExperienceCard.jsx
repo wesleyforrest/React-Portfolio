@@ -1,11 +1,17 @@
 import React from "react";
 import "./ExperienceCard.scss";
+import employment from "../../assets/data/employment.js";
 
-const ExperienceCard = () => {
+const ExperienceCard = (props) => {
+  const { job } = props;
   return (
-    <div>
-      <div className="experience">
-        <h2 className="experience-section__header underline">Experience</h2>
+    <div className="experience-card">
+      <div className="experience-card__table">
+        <div className="experience-card__table-content">
+          <p className="experience-card__job-info">
+            {job.jobTitle} @ {job.employerName}
+          </p>
+        </div>
       </div>
     </div>
   );

@@ -2,6 +2,18 @@
 @use "../../assets/sass/reset" as *;
 @use "../../assets/sass/variables" as *;
 
+.experience-card-container {
+  height: 500px;
+  width: 100%;
+  background-color: $primary-color-charcoal;
+
+  &__header {
+    color: $primary-color-white;
+    padding: 20px;
+    margin-bottom: 50px;
+  }
+}
+
 .underline {
   font-weight: 300;
   display: inline-block;
@@ -11,6 +23,7 @@
 .underline:before {
   content: "";
   position: absolute;
+  padding-left: 20px;
   width: 50%;
   height: 1px;
   bottom: 0;

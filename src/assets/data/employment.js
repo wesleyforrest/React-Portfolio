@@ -69,3 +69,5 @@ const employment = [
     employmentType: "Permanent",
   },
 ];
+
+export default employment;
