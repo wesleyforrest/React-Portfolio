@@ -1,6 +1,5 @@
 import React from "react";
 import "./ExperienceCard.scss";
-import employment from "../../assets/data/employment.js";
 
 const ExperienceCard = (props) => {
   const { job } = props;

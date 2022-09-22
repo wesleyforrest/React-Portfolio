@@ -10,7 +10,7 @@ const ExperienceCardContainer = (props) => {
   return (
     <div className="experience-card-container">
       <div className="experience">
-        <h2 className="experience-card-container__header  underline">
+        <h2 className="experience-card-container__header experience-card-container__underline">
           Experience
         </h2>
       </div>
