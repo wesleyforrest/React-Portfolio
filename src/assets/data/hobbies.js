@@ -24,3 +24,5 @@ const hobbies = [
     Achievements: "",
   },
 ];
+
+export default hobbies;
