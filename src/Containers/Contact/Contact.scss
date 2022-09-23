@@ -1,0 +1,26 @@
+@use "../../assets/sass/mixins" as *;
+@use "../../assets/sass/reset" as *;
+@use "../../assets/sass/variables" as *;
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+  width: 100%;
+
+  &__header {
+    color: $primary-color-white;
+    font-size: 70px;
+    font-family: $primary-font-family;
+    padding: 50px;
+  }
+  &__button {
+    border: solid 2px $primary-color-gold;
+    background-color: $primary-color-light-charcoal;
+    height: 70px;
+    width: 200px;
+    color: $primary-color-white;
+    font-size: larger;
+  }
+}

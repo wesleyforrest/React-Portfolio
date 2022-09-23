@@ -1,72 +1,22 @@
 import React from "react";
+import "./Footer.scss";
+import { BsLinkedin } from "react-icons/bs";
+import { BsGithub } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <div>
-      <p>
-        <div>
-          Icons made by{" "}
-          <a
-            href="https://www.flaticon.com/authors/kiranshastry"
-            title="Kiranshastry"
-          >
-            Kiranshastry
-          </a>{" "}
-          from{" "}
-          <a href="https://www.flaticon.com/" title="Flaticon">
-            www.flaticon.com
-          </a>
+    <div className="footer">
+      <div className="footer__icon-container">
+        <div className=" footer__icon footer__icon-linkedin">
+          <BsLinkedin size={30} />
         </div>
-        <div>
-          Icons made by{" "}
-          <a
-            href="https://www.flaticon.com/authors/pixel-perfect"
-            title="Pixel perfect"
-          >
-            Pixel perfect
-          </a>{" "}
-          from{" "}
-          <a href="https://www.flaticon.com/" title="Flaticon">
-            www.flaticon.com
-          </a>
+        <div className="footer__icon footer__icon-github">
+          <BsGithub size={30} />
         </div>
-        <div>
-          Icons made by{" "}
-          <a
-            href="https://www.flaticon.com/authors/ilham-fitrotul-hayat"
-            title="Ilham Fitrotul Hayat"
-          >
-            Ilham Fitrotul Hayat
-          </a>{" "}
-          from{" "}
-          <a href="https://www.flaticon.com/" title="Flaticon">
-            www.flaticon.com
-          </a>
+        <div className="footer__icon footer__icon-cv">
+          <h2>CV</h2>
         </div>
-        <div>
-          Icons made by{" "}
-          <a href="https://www.freepik.com" title="Freepik">
-            Freepik
-          </a>{" "}
-          from{" "}
-          <a href="https://www.flaticon.com/" title="Flaticon">
-            www.flaticon.com
-          </a>
-        </div>
-        <div>
-          Icons made by{" "}
-          <a
-            href="https://www.flaticon.com/authors/rahul-kaklotar"
-            title="Rahul Kaklotar"
-          >
-            Rahul Kaklotar
-          </a>{" "}
-          from{" "}
-          <a href="https://www.flaticon.com/" title="Flaticon">
-            www.flaticon.com
-          </a>
-        </div>
-      </p>
+      </div>
     </div>
   );
 };

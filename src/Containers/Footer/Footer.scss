@@ -1,0 +1,28 @@
+@use "../../assets/sass/mixins" as *;
+@use "../../assets/sass/reset" as *;
+@use "../../assets/sass/variables" as *;
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  background-color: $primary-color-light-charcoal;
+
+  &__icon-container {
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    width: 80%;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  &__icon {
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: $primary-color-gold;
+  }
+}
