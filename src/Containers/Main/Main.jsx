@@ -3,6 +3,7 @@ import "./Main.scss";
 import ProjectCardContainer from "../ProjectCardContainer/ProjectCardContainer";
 import About from "../About/About";
 import ExperienceCardContainer from "../ExperienceCardContainer/ExperienceCardContainer";
+import InterestsCardContainer from "../InterestsCardContainer/InterestsCardContainer";
 
 const Main = () => {
   return (
@@ -11,6 +12,7 @@ const Main = () => {
       <ProjectCardContainer />
       <About />
       <ExperienceCardContainer />
+      <InterestsCardContainer />
     </div>
   );
 };
