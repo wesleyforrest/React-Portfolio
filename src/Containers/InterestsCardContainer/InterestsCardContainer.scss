@@ -2,7 +2,8 @@
 @use "../../assets/sass/reset" as *;
 @use "../../assets/sass/variables" as *;
 
-.interest-card-containerr {
+.interest-card-container {
   height: 200px;
   width: 100%;
+  padding-left: 50px;
 }

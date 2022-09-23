@@ -1,3 +1,13 @@
 @use "../../assets/sass/mixins" as *;
 @use "../../assets/sass/reset" as *;
 @use "../../assets/sass/variables" as *;
+
+.interest-card {
+  height: 30px;
+  width: 30%;
+  border: 1px solid $primary-color-gold;
+
+  &__hobby {
+    color: $primary-color-white;
+  }
+}
