@@ -12,7 +12,7 @@ const ProjectCard = (props) => {
   return (
     <div className="flip-card-container">
       <div className="flip-card">
-        <div className={`flip-card-inner ${flippedStyle}`}>
+        <div className={`flip-card__inner ${flippedStyle}`}>
           <div className="flip-card-front" onClick={() => setIsFlipped(true)}>
             <img src={project.projectImage} alt={project.projectName} />
             <div className="project-name-line">
