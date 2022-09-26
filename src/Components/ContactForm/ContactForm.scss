@@ -1,0 +1,55 @@
+@use "../../assets/sass/mixins" as *;
+@use "../../assets/sass/reset" as *;
+@use "../../assets/sass/variables" as *;
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 300px;
+  border: 2px solid $primary-color-gold;
+  background-color: $primary-color-light-charcoal;
+  padding: 20px;
+
+  &__name-label {
+    color: $primary-color-white;
+    margin-bottom: 5px;
+  }
+
+  &__name-input {
+    border: 1px solid $primary-color-gold;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+
+  &__email-label {
+    color: $primary-color-white;
+    margin-bottom: 5px;
+  }
+
+  &__email-input {
+    border: 1px solid $primary-color-gold;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+
+  &__message-label {
+    border: 1px solid $primary-color-gold;
+    margin-bottom: 5px;
+  }
+
+  &__message-input {
+    height: 200px;
+    border: 1px solid $primary-color-gold;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+
+  &__submit-button {
+    height: 30px;
+    width: 100px;
+    background-color: $primary-color-gold;
+    color: black;
+    padding: 20px;
+  }
+}
