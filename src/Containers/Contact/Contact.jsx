@@ -7,7 +7,6 @@ const Contact = () => {
     <div className="contact">
       <h1 className="contact__header">Get in touch</h1>
       <button className="contact__button">CONTACT</button>
-      <ContactForm />
     </div>
   );
 };
