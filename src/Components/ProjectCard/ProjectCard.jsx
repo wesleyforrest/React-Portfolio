@@ -10,13 +10,10 @@ const ProjectCard = (props) => {
   const [isFlipped, setIsFlipped] = useState(false);
   let flippedStyle = isFlipped ? "flipped" : "";
   return (
-    <div className="project-card">
-      <div className="project-card flip-card">
-        <div className={`project-card flip-card-inner ${flippedStyle}`}>
-          <div
-            className="project-card flip-card-front"
-            onClick={() => setIsFlipped(true)}
-          >
+    <div className="flip-card-container">
+      <div className="flip-card">
+        <div className={`flip-card-inner ${flippedStyle}`}>
+          <div className="flip-card-front" onClick={() => setIsFlipped(true)}>
             <img src={project.projectImage} alt={project.projectName} />
             <div className="project-name-line">
               <h3 className="project-name-line__project-name">
