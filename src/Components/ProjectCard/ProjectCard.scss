@@ -21,7 +21,7 @@
   }
 }
 
-.flip-card__inners {
+.flipped {
   transform: rotateY(180deg);
 }
 
@@ -56,6 +56,7 @@
   width: 300px;
   margin: 20px;
   background-color: $primary-color-light-charcoal;
+  color: $primary-color-white;
   transform: rotateY(180deg);
   position: absolute;
   -webkit-backface-visibility: hidden;

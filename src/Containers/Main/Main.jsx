@@ -13,8 +13,10 @@ const Main = () => {
       <h1 className="portfolio__heading">Portfolio</h1>
       <ProjectCardContainer />
       <About />
-      <ExperienceCardContainer />
-      <InterestsCardContainer />
+      <div className="media-query">
+        <ExperienceCardContainer />
+        <InterestsCardContainer />
+      </div>
       <Contact />
       <Footer />
     </div>
