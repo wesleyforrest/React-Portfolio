@@ -2,35 +2,36 @@
 @use "../../assets/sass/reset" as *;
 @use "../../assets/sass/variables" as *;
 
-@media screen and (max-width: 480px) {
-}
+// @media screen and (max-width: 480px) {
+//   .media-query {
+//     display: flex;
+//     flex-direction: column;
+//     padding-left: 50px;
+//   }
+// }
 
-@media screen and (max-width: 768px) {
-}
+// @media screen and (max-width: 768px) {
+//   .media-query {
+//     display: flex;
+//     flex-direction: column;
+//   }
+// }
 
-@media screen and (max-width: 1000px) {
-}
-
-.media-query {
-  display: flex;
-}
-
-@media screen and (max-width: 1000px) {
-  .media-query {
-    display: flex;
-    flex-direction: column;
-  }
-}
+// @media screen and (max-width: 1200px) {
+//   .media-query {
+//     display: flex;
+//     flex-direction: row;
+//   }
+// }
 
 .about {
+  height: auto;
   padding: 50px;
 }
 
 .about-section {
   display: flex;
-  flex-direction: column;
-  height: 500px;
-
+  flex-wrap: wrap;
   &__header {
     color: $primary-color-white;
     padding-top: 50px;
@@ -39,11 +40,14 @@
   &__headshot {
     padding-top: 20px;
     height: 300px;
+    width: 200px;
   }
 
   &__about-text {
     color: $primary-color-white;
     padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
   }
 }
 
