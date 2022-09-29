@@ -2,6 +2,13 @@
 @use "../../assets/sass/reset" as *;
 @use "../../assets/sass/variables" as *;
 
+.contact-form-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -34,7 +41,7 @@
   }
 
   &__message-label {
-    border: 1px solid $primary-color-gold;
+    color: $primary-color-white;
     margin-bottom: 5px;
   }
 
@@ -45,7 +52,18 @@
     padding: 5px;
   }
 
+  &__button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
   &__submit-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     height: 30px;
     width: 100px;
     background-color: $primary-color-gold;

@@ -13,7 +13,6 @@ const Contact = () => {
           CONTACT
         </button>
       </div>
-
       {form ? <ContactForm /> : ""}
     </>
   );

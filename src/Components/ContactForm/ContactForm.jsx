@@ -11,11 +11,13 @@ const ContactForm = () => {
         <input className="contact-form__email-input" type="text" />
         <label className="contact-form__message-label">Comment</label>
         <input className="contact-form__message-input" type="text" />
-        <input
-          className="contact-form__submit-button"
-          type="submit"
-          value="Submit"
-        />
+        <div className="contact-form__button-container">
+          <input
+            className="contact-form__submit-button"
+            type="submit"
+            value="Submit"
+          />
+        </div>
       </form>
     </div>
   );
