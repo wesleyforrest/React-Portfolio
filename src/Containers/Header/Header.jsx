@@ -16,7 +16,7 @@ const Header = () => {
       <div className="header-section__course-summary">
         <p className="header-section__course-summary-text">
           I recently applied for and got accepted to join the nology 12 week
-          intensive full stack consultancy coding bootcamp program. The course
+          intensive full stack coding consultancy bootcamp program. The course
           took me from having virtually no coding knowledge through modules in
           html, scss, javaScript, React and Java. This portfolio showcases the
           skills I have learned during this process.{" "}
