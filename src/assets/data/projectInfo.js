@@ -89,7 +89,7 @@ const projectsArray = [
   {
     projectImage: "./Images/React - Beers api.png",
     projectName: "React Beers project",
-    viewProjectLink: "TBC",
+    viewProjectLink: "https://wesleyforrest.github.io/react-ipa-project/",
     viewProjectCode: "https://github.com/wesleyforrest/react-api-lesson",
     html: "./Images/html-icon.png",
     javaScript: "./Images/javaScript-icon.png",
@@ -103,7 +103,7 @@ const projectsArray = [
   {
     projectImage: "./Images/React Ticket Tracker.png",
     projectName: "React Ticket Tracker project",
-    viewProjectLink: "TBC",
+    viewProjectLink: "https://wesleyforrest.github.io/ticket-tracker/",
     viewProjectCode: "https://github.com/wesleyforrest/ticket-tracker",
     html: "./Images/html-icon.png",
     javaScript: "./Images/javaScript-icon.png",
