@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.scss";
+import headshot from "../../assets/me3.jpg";
 
 const About = () => {
   return (
@@ -8,11 +9,7 @@ const About = () => {
         <h2 className="about-section__header underline">About</h2>
       </div>
       <div className="media-query">
-        <img
-          className="about-section__headshot"
-          src="./Images/me3.jpg"
-          alt=""
-        />
+        <img className="about-section__headshot" src={headshot} alt="" />
         <p className="about-section__about-text">
           An experienced and results focused Prince2 Certified Project Manager
           and experienced Business Analyst, who is now re-training as a full
